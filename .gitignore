@@ -1,0 +1,96 @@
+# ------------------------
+# Python & Virtualenv
+# ------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.log
+.env
+.venv/
+venv/
+env/
+
+# ------------------------
+# Jupyter Notebook
+# ------------------------
+.ipynb_checkpoints/
+
+# ------------------------
+# Model Checkpoints & Outputs
+# ------------------------
+output/
+outputs/
+checkpoints/
+runs/
+logs/
+wandb/
+*.ckpt
+*.pt
+*.bin
+*.onnx
+*.h5
+*.safetensors
+
+# ------------------------
+# Hugging Face Cache
+# ------------------------
+~/.cache/huggingface/
+~/.huggingface/
+
+# If you're storing in project directory:
+cache/
+cached_models/
+datasets/
+*.arrow
+
+# Transformers Trainer checkpoint folders
+checkpoint-*/
+
+# ------------------------
+# Temporary files
+# ------------------------
+tmp/
+temp/
+*.tmp
+*.bak
+
+# ------------------------
+# IDE and Editor Files
+# ------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ------------------------
+# Mac & Linux system files
+# ------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# Shell history (optional)
+# ------------------------
+.history
+
+# ------------------------
+# Archive / Tarball Files
+# ------------------------
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.rar
+
+
+# self
+wandb/
+runs/
+ds_zero_stage_3/
+zero3/ 
+output/
+tmp/
+logs/
+saved_logs/

@@ -1,0 +1,2 @@
+1. 这个REPO 没有支持 在他的源代码里面跑我的数据，在GOAT那个repo里面的train_nlg_personalized 里面有
+2. 这个REPO数据加载等全是我的方法，不是他的方法，只是放了GOAT的模型代码
